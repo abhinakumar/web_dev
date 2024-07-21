@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Attributes</h1>
+    <!-- Attributes:
+
+        It is used to add the additional information for the HTML element
+        NOTe: In open HTML tag we can write the HTML attribute with name and value pair-->
+    <h1 title="Hypertext Markup Language">HTML</h1>
+    <h1 title="Cascading Style Sheets">CSS</h1>
+    <h1 title="Java Script">JS</h1>
+    <!-- 
+        title attribute:
+          It is used to give title name for the HTML element -->
+
+    <marquee title="E sala cup namde" >
+       <h1>RCB</h1> 
+    </marquee>
+
+    <marquee direction="right">
+      <h1>CSK</h1>
+    </marquee>
+    <marquee direction="down" height="200">
+      <h1>Tell me something..!!</h1>
+    </marquee>
+    <!-- 
+        Marquee tag:
+        It is used to scroll the content from one end to other end
+        -default direction is moving from right to left. To change the direction, we use attribute
+
+        Attribute used is marquee tag:
+        -> direction attribute is used to change the direction of marquee tag
+        ex: direction= "left(default)/right/up/down"
+        ->height attribute is used to increase the height of HTML ekement
+    -->
+    <h1>Insertion of image</h1>
+    <img src="./images/Photo by Alin Rusu on Unsplash.jfif" height="500" width="800" title="nice view bro"> <!-- type ./  to get image folder-->
+    
+    <marquee scrollamount="50" >
+      <img src="./images/icegif-1393.gif">
+      <img src="./images/icegif-99.gif">
+    </marquee> 
+    <marquee behavior="alternate" scrollamount="50">
+      <img src="./images/images (1).png">
+    </marquee>
+
+    <marquee behavior="alternate" scrollamount="50" direction="right">
+      <h1>CAR</h1>
+    </marquee>
+    
+<!-- can upload 2 images inside one marquee tag 
+  scroll amount="50"- to increase scroll speed
+   
+     behavior="alternate/slide" inside marquee tag
+    
+    video-- <video src="./ sdfsf" controls > </video>-->
+
+     <h1>Insertion of video</h1>
+
+     <video src="./video/chapter1_The boy in the iceberg.mkv" controls></video>
+
+     <audio src="" controls></audio>
+
+     <h1>Ordered list</h1>
+       <ol type="a"><!--type = 1(default) / A/ I/ i/ a-->
+         <li>Audi</li>
+         <li>Ferrari</li>
+         <li>Lamborghini</li>
+         <li>BMW</li>
+         <li>Kia</li>
+       </ol>
+
+       <ol type="A" start="25"> <!-- after A-Z it starts from AA-AB...-->
+        <li>Yamaha</li>
+        <li>Honda</li>
+        <li>Kawasaki</li>
+        <li>Royal Enfield</li>
+       </ol>
+       <h1>Unordered list</h1> <!---type="disc/circle/square/none-->
+       <ul type="circle">
+        <li>Red</li>
+        <li>Black</li>
+        <li>White</li>
+
+       </ul>
+
+       <h2>Definition Tag</h2>
+
+
+       <dl> <!--definition tag-->
+
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+
+        <dt>JS</dt>
+        <dd>Java Script</dd><br>
+
+        <dt>Paragraph 1:</dt><!--Title tag for definition tag-->
+        <dd><!--description tag-->
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, sint nesciunt! Consequuntur iste vitae dolorem amet animi consequatur nemo magni repudiandae quod, dicta quam ipsa itaque eaque pariatur tenetur omnis suscipit sequi ex accusamus neque? Veniam voluptas quidem et rerum aspernatur, aliquid nihil aperiam eos consectetur nobis alias. Maiores velit quam, nemo itaque modi quod nostrum ipsum dicta exercitationem. Quo, repellat porro aliquid, nesciunt pariatur itaque nobis sint nemo magnam inventore quis eum tempore amet cumque officia rem. Iure tempora natus aut veniam vel laudantium recusandae placeat, quas, est, explicabo ea ipsa minus. Facilis illum voluptatibus, placeat eaque perferendis fugit!
+        </dd>
+       <!--Definition List
+      
+      ->using <dl> tag we are creating the definition list
+      -> <dt> tag is used to insert the title/heading of data
+        -><dd> tag is used to insert description of the data 
+          
+      SYNTAX
+         <dl> definition list
+           <dt> --data title--</dt>
+           <dd>-------data description---</dd>
+         </dl>
+        -->
+           
+    
+       </dl>
+  </body>
+</html>

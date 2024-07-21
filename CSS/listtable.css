@@ -1,0 +1,28 @@
+ul{
+   
+    list-style-image:radial-gradient(red,yellow,green);
+   
+}
+table ,td,th{
+    border: solid 1px black;
+}
+table{
+    height: 200px;
+    width: 600px;
+
+}
+td{
+    text-align: center;
+    font-weight: bold;
+}
+input ,button{
+    display: block;
+    margin: 10px auto;
+    height: 30px;
+}
+input{
+    width: 50%;
+}
+button{
+    width: 20%;
+}

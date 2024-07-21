@@ -1,0 +1,133 @@
+button ,a{
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 50px;
+
+    background: none;
+    border: solid 2px blue;
+    color: blue;
+    font-weight: bold;
+}
+button:hover,a:hover{
+    background: red;
+    color: blue;
+}
+button:active,a:active{
+    background: green;
+    border: none;
+    color: aqua;
+    transform: scale(.95) ;
+   
+}
+a{
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.box{
+    border: solid 1px blue;
+    height: 150px;
+    width: 150px;
+    box-shadow: inset 2px 2px 8px blue;
+    margin: 20px auto;
+    transition: all 1s;
+
+}
+.box:hover{
+    background-color: blue;
+    border-radius: 50%;
+    transform: scale(2);
+    
+}
+input{
+    display: block;
+    margin: 10px auto;
+    height: 6vh;
+}
+/* Atribute Selector */
+input[type="text"]{
+    width: 30%;
+    border: none;
+    border-bottom: solid 1px black;
+    outline:none;
+    
+}
+input[type="submit"]{
+    width: 10%;
+   
+}
+input[type="submit"]:active{
+    transform: scale(2);
+    color: red;
+    background-color: aqua;
+    border-radius: 100px;
+}
+input[type="text"]:focus{
+    outline: none;
+    background: rgba(102, 171, 12, 0.578);
+}
+input::placeholder{
+    text-align: center;
+}
+p{
+    font-size: 2-px;
+    text-align: justify;
+}
+p::first-line{
+    color: blue;
+    font-style: italic;
+}
+p::first-letter{
+        font-size: 50px;
+        font-weight: bold;
+        color: red;
+}
+p::selection {
+    background-color: rgb(227, 30, 30);
+    color: rgb(85, 255, 47);
+}
+.text{
+    background-color: yellow;
+    font-weight: bold;
+    color: rgb(227, 17, 153);
+}
+ul{
+    list-style: none;
+
+}
+
+li::before{
+    content: "*";
+}
+li::after{
+    content: "...";
+}
+
+
+.container{
+    border: solid 1px black;
+    height: 200px;
+    width: 300px;
+    background: url('../img/10.jpeg') no-repeat center;
+    background-size: contain;
+}
+.container:hover{
+    background-size: 150%;
+   
+}
+img{
+    height: 150px;
+    width: 220px;
+    display: block;
+    margin: 100px auto;
+    transition: all 1s;
+}
+img:hover{
+    transform: scale(1.5);
+    transform: rotatex(30deg) rotatey(30deg);
+transform: rotate(90deg) scale(1.3);
+}

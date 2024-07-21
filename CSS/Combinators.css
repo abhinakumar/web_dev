@@ -1,0 +1,18 @@
+/* desendent selector combinator (space) */
+div p{
+    color: red;
+}
+/* child selector combinator (>) */
+div >p{
+    background: yellow;
+}
+/* Adjecent sibling selector combinator(+) */
+div +p{
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+}
+/* genral sibling selector combinator */
+div ~ p{
+    background: green;
+}

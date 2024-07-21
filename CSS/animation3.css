@@ -1,0 +1,111 @@
+/* .box{
+    border: solid 1px black;
+    height: 150px;
+    width: 150px;
+    background-color: crimson;
+    animation: run 10s infinite ;
+    animation-delay: 3s;
+    animation-direction: alternate-reverse;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; 
+}
+@keyframes run {
+    0% {
+        position: relative;
+        top: 0px;
+        left: 0px;
+       
+    }
+    25%{
+        position: relative;
+        top: 0px;
+       left: 500px;
+       border-radius: 0%;
+        width: 250px;
+    }
+    50%{
+        position: relative;
+        top: 300px;
+        left: 500px;
+       border-radius: 50%;
+        width: 250px;
+    }
+    75%{
+        position: relative;
+        top: 300px;
+        left: 0px;
+       border-radius: 50%;
+        width: 150px;
+    }
+    100%{
+        position: relative;
+        top: 0px;
+        left: 0px;
+        height: 150px;
+        width: 150px;
+    }
+    
+} */
+@keyframes run {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        top: 0px;
+        left: 500px;
+    }
+    50% {
+        top: 300px;
+        left: 500px;
+    }
+    75% {
+        top: 300px;
+        left: 0px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.b1 {
+    background-color: black;
+    height: 450px;
+    width: 650px;
+    position: relative; /* Changed to relative */
+}
+
+.box1, .box2, .box3, .box4 {
+    position: absolute; /* Changed to absolute */
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    animation: run 10s infinite;
+}
+
+.box1 {
+    top: 0px;
+    left: 0px;
+    background-color: yellow;
+}
+
+.box2 {
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    animation-delay: 2s;
+}
+
+.box3 {
+    top: 0px;
+    left: 0px;
+    background-color: green;
+    animation-delay: 4s;
+}
+
+.box4 {
+    top: 0px;
+    left: 0px;
+    background-color: blue;
+    animation-delay: 6s;
+}

@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+}
+a{
+    display: block;
+    background-color: blue;
+    border: solid 1px black;
+    color:#ffffff;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 10px auto;
+}
+button{border: solid 1px black;
+    display: block;
+    margin: auto;
+    padding: 10px 30px;
+    color:white ;
+    background-color:blue;
+}
+.box{
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px;
+
+}
+.color1{
+    background-color: red;
+
+}
+.color2{
+      background-color: yellow;
+}
+.color3{
+    background-color: green;
+}
+.boxes{
+    background-color: black;
+     display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.container{
+    border: solid 1 px black;
+    height: 200px;
+    width: 200px;
+    background: skyblue;
+    margin : 20px auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    border: solid 1 px black;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 10px yellow;
+    /* box-shadow: x-axix y-asix blur size color; */
+}

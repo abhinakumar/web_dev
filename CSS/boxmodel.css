@@ -1,0 +1,43 @@
+.box{
+    border: solid 1px black;
+    height: 150px;
+    width: 250px;
+    background-color: teal;
+    margin-left: 200px;
+}
+.box1{
+    border: solid 2px black;
+    height: 150px;
+    width: 250px;
+    background-color: beige;
+    margin:200px 100px 34px 154px ;}
+.box2{
+        border: solid 2px black;
+        height: 150px;
+        width: 250px;
+        background-color: beige;
+        margin:auto  ;}
+        
+/* 1 value : all sides
+    2 value : (t&b) (l,r) 
+    3. value : top (l& r) bottom 
+    4 value : t,r,b,l (clock wise)*/
+   
+    img{
+       
+        height: 100px;
+        width: 200px;
+        display: block;
+        margin: 20px auto;
+    }
+    .box3{
+        border: solid 1px black;
+        height: 150px;
+        width: 150px;
+        background-color: aqua;
+        margin: auto;
+        font-size: 30px;
+        padding-top: 20px;
+        padding-left: 30px;
+        padding: auto;
+    }

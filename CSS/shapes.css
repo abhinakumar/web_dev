@@ -1,0 +1,59 @@
+.square{
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.rectangle{
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    height: 100px;
+    width:200px;
+    background-color: blue;
+}
+.cir{
+    border-style: solid;
+    border-radius:50%;
+    border-width: 2px;
+    border-color: blue;
+    height: 100px;
+    width:100px;
+    background-color: rgb(221, 28, 34);
+}
+.ovel{
+    border-style: solid;
+   
+    border-radius: 50%;
+    border-width: 2px;
+    border-color: blue;
+   
+    height: 100px;
+    width:200px;
+    background-color: blue;
+}
+.tri{
+    border: solid 2px;
+    height: 0px;
+    width: 00px;
+     border-top: solid 100px #ffffff;
+    border-right: solid 100px  #ffffff;
+    border-bottom: solid 100px rgb(155, 32, 32);
+    border-left: solid 100px #ffffff; 
+}
+.leaf{
+    border: solid 2px;
+    background-color: green;
+    border-radius: 100% 0%;
+    
+    height: 80px;
+    width: 80px;
+}
+/* 
+border radius
+1 value : all side
+2 value :(tl br),(tr bl)
+3 value : tl,( tr bl) br
+4 value : tl ,tr,br,bl */

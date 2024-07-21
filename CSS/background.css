@@ -1,0 +1,21 @@
+h1{
+    color: red;
+}
+body{
+    color: rgb(255, 255, 255);
+    /* height: 100%; */
+    /* backgroung-color: skyblue */
+    background-image: url('../htmlonly/robert-downey-jr-tom-cruise.webp') ;
+    background-repeat: no-repeat;
+    
+
+    background-size: cover;
+    /* auto(defalt)/ contain/ cover */
+    background-position: center;
+   
+    /* repeat/no-repeat/repeat-x/repeat-y */
+    /* top left(defalt) / top right / bottom-right/bottom - left/right/lrft/top/bottom/center */
+    background-attachment: fixed;
+    /* scroll(defalt):both background, image is scrolling
+    fixed: Background Image is fixed only content are scrolling */
+}

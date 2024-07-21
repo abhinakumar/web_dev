@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background: teal;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
+.container ,form{
+    margin: 10vh auto;
+    background-color: aqua;
+    width: 30%;
+    height: 50vh;
+}
+form{
+    background: none;
+    
+}
+.box{
+    width: 100%;
+    height: 50vh;
+    background: white;
+    border-radius: 100% 2%;
+
+    animation: anime 10s infinite;
+}
+@keyframes anime{
+    50%{
+        border-radius: 2%  100%;
+    }
+}
+input {
+    border: none;
+    margin: 10px auto;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    border-bottom: solid skyblue;
+ }
+  button {
+     padding: 10px 20px;
+     border: none;
+     width: 80%;
+     margin-left: 10%;
+     background-color: #0072ff;
+     color: blue;
+     border-radius: 5px;
+     cursor: pointer;
+ }
+ form {
+    border: 1px solid white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    border-radius: 100% 1%;
+    background-color: white;
+    animation-name: charge;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+}

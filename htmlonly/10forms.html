@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Demo on forms</h1>
+    <form method="post" action="./download (1).jfif">
+      <fieldset>
+        <legend align="center"> login details</legend>
+        <label for="">name: </label>
+        <input type="text" name="form" placeholder=" enter first name" required> <br>
+       <label for="">last name: </label> <input type="text" name="len" placeholder="enter last name" id=""><br>
+        <label for="">email : </label>
+        <input type="email" name="email" placeholder="enter email" id="">
+       
+        <br><br>
+        <label for="idd"> password: </label>
+        <input type="password" name="pass" placeholder="password" id="idd" ><br>
+       
+      </fieldset>
+        <label for=""> age :</label> <input type="number" min="0" max="100" name="number" placeholder="number"  ><br>
+        <label for="">DOB</label> <input type="date" name="cal" id="">
+      <br> <label for=""> time</label> <input type="time" name="cal" id="">
+      
+       <label for="">date time</label> <input type="datetime-local" name="cal" id=""><br>
+       <label for="">phone num : </label> <input type="text" name="phone" pattern="[6-9]{1} [0-9] {9}" >
+       <input type="file" name="file" id=""><br>
+       <input type="range" name="range" id="" min="20" max="80"><br>
+       <label for=""> color</label> <input type="color" name="color" id="">
+       <br><br>
+        <hr>
+        <label>Gender :</label>
+        <label for="m">male :</label>
+        <input type="radio" name="Gender" value="male" id="m">
+        <label for="f">female :</label>
+        <input type="radio" name="Gender" value="female" id="f">
+        <label for="o">other :</label>
+        <input type="radio" name="Gender" value="other" id="o">
+
+        <br><br><br>
+        <hr>
+        <label for="">Laguage</label>
+        <label for="eng">English</label>
+        <input type="checkbox" name=" lang" id="eng" value="eng" checked>
+        <label for="hin">Hindi</label>
+        <input type="checkbox" name=" lang" id="hin" value="hin">
+        <label for="tamil">Tamil</label>
+        <input type="checkbox" name=" lang" id="tamil" value="tamil" disabled>
+        <br><br>
+        <textarea name="cmnt" placeholder="Comment box"cols="50" rows="5"></textarea>
+
+        <br><br>
+        <label> Place: </label>
+        <select name="plc" id="">
+        <option value="ban">banglore</option>
+        <option value="mys">mysore</option>
+        <option value="goa" disabled>goa</option>
+        <option value="has" selected>hassan</option>
+        <option value="oty">Ooty</option>
+      </select>
+       <br>
+       <input type="reset" name="" id="">
+       <input type="submit" name="" id=""value="login"><br>
+        <!-- <button>login</button> -->
+    </form>
+</body>
+</html>
+<!-- 
+    from
+      it is used to collect the data from the encounter directly from web page
+      by using inputt field
+
+    tag
+      -> <from> tag is to create the form on the web
+        it is pared tag & block level tag
+        note- without form tag we cant submit the data to backend
+        -> lebel tag is used to give label name for the input file
+        -<lebel> is pared tag & inlinelevel tag
+            -> to create the input file in the web we are using <input>tag
+            -<input> tag is a unpared tag & inline level tag
+ -->

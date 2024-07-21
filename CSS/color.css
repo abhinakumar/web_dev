@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+   
+}
+.hardcore{
+    color: red;
+    background-color: yellow;
+}
+.hexa{
+    color: #2ac22d;
+    background-color: #0d2f14f8;
+    border: 1px solid red;
+}
+.decimal{
+    color: rgb(190, 187, 206);
+    background-color: rgb(47, 159, 159);
+}
+body{
+    background-color: lightblue;
+}

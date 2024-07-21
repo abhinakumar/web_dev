@@ -1,0 +1,74 @@
+*{
+    margin: 0;padding:0;
+}
+.header{
+    border: none;
+    height: 10vh;
+    width: 100%;
+    background-color: teal;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: wheat;
+    padding-top: auto;
+    position: relative ;
+    top: 0%;
+}
+.navbar{
+    border: none;
+    height: 10vh;
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: teal;
+    margin-top: 10vh;
+    position: sticky;
+    top: 0%;
+}
+.box{
+    border: solid 1px black;
+    height: 200px;
+    width: 200px;
+     margin: 30px; 
+}
+.conatiner{
+    border: solid 0px black;
+    padding: auto;
+    display: flex;
+   
+    justify-content: space-evenly;
+    
+}
+.c1{
+    background-image: linear-gradient(#ff671f,white,green);
+}
+.c2{
+    background-image: linear-gradient(to right,red,yellow,green);
+}
+.c3{
+    background-image: linear-gradient(to bottom  right,red,yellow,green);
+}
+/* to top :right/ to top left/ to top right/ */
+/* free website templates /freeze */
+.rg1{
+    background-image: radial-gradient(red,yellow,green);
+
+}
+.rg2{
+    background-image: radial-gradient(circle at bottom,red,yellow,orangered);
+}
+.rg3{
+    background-image: radial-gradient(circle at bottom ,red 30%, yellow,orangered);
+}
+.cg1{
+    background-image: conic-gradient(red,yellow,green,blue,red);
+}
+.op{
+    background-image: linear-gradient(red,rgba(255, 0, 0, 0));
+}
+h2{
+    text-align: center;
+    opacity: 0.2;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size:60px;
+    position:sticky;
+}
+.box{
+    border: solid 0px black;
+    height: 10%;
+    width: 100%;
+     position:sticky;
+     background-image: linear-gradient(#ffa500,white,green);
+}
+.box1{
+    border: solid 1px black;
+    height: 60vh;
+    width: 50%;
+    position: relative;
+     margin: 30px;
+     margin-left:27%; 
+     background-image: linear-gradient(#ffa500,white,green);
+}
+.cir{
+    border: solid 0px black;
+    border-radius: 50%;
+    height: 30vh;
+    width: 30%;
+     margin: 112px;
+     margin-left: 35%; 
+     background-image: conic-gradient(#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b,white,#00008b);
+ 
+}
+.b1{
+    background-image: linear-gradient(yellow,red);
+}
+.k1{
+    background-image: linear-gradient(yellow,red); 
+}
+.k2{
+    
+    border: solid 0px black;
+    
+    
+     margin: 112px;
+     margin-left: 40%; 
+}img{
+    width: 40%;
+    height: 45%;
+    mix-blend-mode:multiply;
+    
+   
+}

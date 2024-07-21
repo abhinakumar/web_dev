@@ -1,0 +1,171 @@
+*{
+    background-color: black;
+}
+/* from square to circle */
+/* .box{
+    border: solid 1px black;
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    animation-name:changeDesign;
+    animation-duration: 10s;
+    margin:10% auto;
+}
+@keyframes changeDesign {
+    from{
+        border-radius: 0;
+        background-color: red;
+    }
+    to{ border-radius: 50%;
+        background-color: yellow;
+    }
+    
+} */
+
+/* from rectangle to circle */
+.box{
+    border: solid 1px black;
+    height: 150px;
+    width: 250px;
+    background-color: black;
+    animation-name:changeDesign;
+    animation-duration: 10s;
+    /* margin:10% auto; */
+}
+@keyframes changeDesign {
+    from{
+        margin-right: 0%;
+        border-radius: 0;
+        background-color: red;
+    }
+    to{ 
+        margin-right: 80%;
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-color: yellow;
+    }
+    
+}
+
+.container{
+    border: solid 1px black;
+    height: 150px;
+    width: 150px;
+    margin: 0px auto;
+    background-color: black;
+    animation-name:shapes;
+    animation-duration: 5s;
+}
+@keyframes shapes {
+    0%{
+        border-radius: 0%;
+    }    
+    50%{
+        border-radius: 50%;
+    }
+    100%{
+        border-radius: 0%;
+    }
+}
+.four{
+    border: solid 1px black;
+    height: 150px;
+    width: 150px;
+    margin:0px;
+    background-color: violet;
+    animation-name:four;
+    animation-duration: 10s;
+    z-index: 2;
+}
+@keyframes four {
+    0%{
+        border-radius: 0%;
+        margin: 200px 200px 0px 0px;
+       background-color: aqua;
+    }    
+    25%{
+        border-radius: 0%;
+        width: 250px;
+        margin: 0px 200px 200px 0px;
+        background-color: red;
+    }
+    50%{
+        border-radius: 50%;
+        width: 250px;
+        margin: 0px 0px 200px 200px;
+        background-color: yellowgreen;
+    }
+    75%{border-radius: 50%;
+        width: 150px;
+        margin: 200px 0px 0px 200px;
+        background-color: palevioletred;
+    }
+    100%{
+        width: 150px;
+        border-radius: 0%;
+        margin: 200px 200px 0px 0px;
+        background-color: aqua;
+    }
+}
+.heart{
+    display: flex;
+    z-index: 5;
+    font-size: 200px;
+    text-align: center;
+    color: red;
+   margin: auto;
+    animation-name: heart;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+H1{
+    margin: auto;
+    font-size: 100px;
+    text-align: center;
+}
+@keyframes heart {
+    50%{
+        transform: scale(1.3);
+    }
+    
+}
+.text{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+    font-family: cursive;
+    font-weight: bold;
+    color: green;
+    animation-name: design;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+}
+@keyframes design {
+    0%,100%{
+        transform: scale(0.2);
+    }
+    50%{
+        transform: scale(1) rotate(45deg);
+    }
+    
+}
+.ovel{
+    border: solid 1px white;
+    height: 100px;
+    width: 300px;
+    margin: 400px auto;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: inset 1px 1px 10px 20px red;
+    /* inset(shadow inside the border) x-axis y axis blur size color */
+    animation: abc 2s ;
+}
+@keyframes abc {
+   
+    50%{
+        transform: rotate(10000turn) scale(0.3);
+
+    }
+    
+}

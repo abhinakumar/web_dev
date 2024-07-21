@@ -1,0 +1,24 @@
+.para1{
+    border-style:groove;
+    border-width: 5px;
+    border-color: red;
+    border-radius: 11px;
+}
+.para2{
+    border-left-style: double;
+    border-left-width: 5px;
+    border-left-color: rgb(48, 102, 84);
+    border-top-style:groove;
+    border-top-width: 2px;
+    border-top-color: rgb(15, 11, 232);
+
+    border-bottom-color: red;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+
+    border-right-color: rgb(0, 255, 47);
+    border-right-style: solid;
+    border-right-width: 5px;
+
+    border-bottom-left-radius: 21px;
+}

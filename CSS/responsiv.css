@@ -1,0 +1,47 @@
+input{
+    display: block;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10%;
+    margin: auto;
+    height: 5vh;
+    width: 600px;
+}
+.box{
+    height: 300px;
+    width: 30%;
+    border: solid 1px black;
+    margin: 20px;
+}
+.c1{
+    background: orangered;
+}
+.c2{
+    background: green;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+body{
+    background-color: gray;
+}
+@media screen  and (min-width:200px ) and (max-width:400px){
+    body{
+        background-color: red;
+    }
+}
+@media screen  and (min-width:400px ) and (max-width:500px){
+    body{
+        background-color: aqua;
+    }
+    input{
+        width: 298px;
+    }
+    .container{
+        display: block;
+    }
+    .box{
+        height: 200px;
+    }
+}

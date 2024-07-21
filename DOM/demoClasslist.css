@@ -1,0 +1,31 @@
+button{
+    height: 6vh;
+    width: 30%;
+    border: solid 2px blue;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+.green{
+    border: solid 2px green;
+    background: green;
+    color: white;
+}
+.red{
+    background: red;
+}
+.yellow{
+    background: yellow;
+}
+.container{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid black;
+   
+
+}

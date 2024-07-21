@@ -1,0 +1,27 @@
+button{
+    display: block;
+    margin: auto;
+    width: 30%;
+    height: 6vh;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+.green{
+
+    background: green;
+    color: white;
+}
+.red{
+    color: white;
+    background: red;
+}
+input{
+    display: block;
+    margin: 10px auto;
+    width: 30%;
+    height: 6vh;
+    border: none;
+    border-bottom: 1px solid green;
+
+}
